@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <UserProfile url = "fsdfgsdfsd" />
+      <UserProfile />
     </>
   )
 }

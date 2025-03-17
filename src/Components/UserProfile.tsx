@@ -1,22 +1,16 @@
-type Auth = {
-    url: string
-}
+
 
 import useAuthFetch from '../hooks/useAuthFetch'
 
+const UserProfile = () => {
 
-const UserProfile = (url : Auth) => {
-
-    console.log("use auth fetch", useAuthFetch)
+    useAuthFetch({url : "http://localhost:8000/user"})
 
     return (
         <div>
             <h1>sasa</h1>
         </div>
     )
-
-
-    
 
 }
 
